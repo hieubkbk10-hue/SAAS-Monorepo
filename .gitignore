@@ -1,0 +1,27 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build & output artifacts
+dist
+build
+.turbo
+*.tsbuildinfo
+.tanstack
+routeTree.gen.ts
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs & Editor
+.vscode
+.idea
+*.log
+npm-debug.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+
+.next/

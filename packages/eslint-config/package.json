@@ -1,0 +1,23 @@
+{
+  "name": "@config/eslint",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./base": "./base.js",
+    "./react": "./react.js",
+    "./apps": "./apps.js",
+    "./packages": "./packages.js"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "globals": "^16.0.0",
+    "typescript-eslint": "^8.26.0"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0"
+  }
+}
